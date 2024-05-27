@@ -1,0 +1,41 @@
+.column {
+	background: #001414;
+	&__box{
+	display: flex;
+	justify-content: space-between;
+	padding: 112px 0 137px 0;
+	}
+	&__content {
+		display: grid;
+		grid-template-columns: repeat(3, 1fr);
+	}
+	
+	&__title {
+	color: #7D9798;
+	font-family: Public Sans;
+	font-size: 11px;
+	font-style: normal;
+	margin-bottom: 48px;
+	&::before {
+		position: absolute;
+		Content: " ";
+		width: 16px;
+		height: 1px;
+		margin-top: 33px;
+		background: #25B895;
+		}
+	}
+	&__link {
+	color: #EDECEB;
+	font-family: Public Sans;
+	font-size: 15px;
+	text-decoration: none;
+	
+	}
+	&__aside {
+	padding-right: 107px;
+	}
+	a{
+		color: #EDECEB;
+	}
+}

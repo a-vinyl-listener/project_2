@@ -1,0 +1,41 @@
+.work {
+	background: #001F1F;background: #001F1F;
+	&__content{
+	display: flex;
+	justify-content: space-between;
+	}
+	&__box {
+	display: flex;
+	flex-direction: column;
+	margin: 146px 0 244px 0;
+	max-width: 320px;
+	}
+	&__title {
+	color: #FAFAFA;
+	font-family: Libre Baskerville;
+	font-size: 36px;
+	}
+	&__text {
+	color: #FAFAFA;	
+	font-family: Public Sans;
+	font-size: 18px;
+	margin-top: 43px;
+	
+	}
+	&__btn {
+	width: 143px;
+	height: 52px;
+	border-radius: 80px;
+	background: #00665F;
+	color: #FFF;
+	text-align: center;
+	font-family: Public Sans;
+	font-size: 14px;
+	margin-top: 37px;
+	transition: 9s ;
+	}
+	&__img{
+		padding-right: 99px;
+	}
+}
+

@@ -1,0 +1,14 @@
+.success {
+    padding: 113px 0 115px 0;
+    background: #F7F8F8;
+    &__wrapper {
+      display: flex;
+      justify-content: space-between;
+    }
+    &__picture {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 8px;
+    }
+  }

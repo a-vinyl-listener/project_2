@@ -1,0 +1,36 @@
+.news {
+  background: #FFF;
+  padding: 41px 0 48px 0;
+
+  &__row {
+    display: grid;
+    grid-template-columns: repeat(6, 165px);
+    justify-content: space-between;
+    gap: 32px;
+  }
+
+  &__link {
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+    justify-content: start;
+    color: rgba(53, 83, 98, 0.80);
+    font-family: Public Sans;
+    font-size: 15px;
+    text-decoration: none;
+    list-style-type: none;
+    gap: 8px;
+
+    &::before {
+      position: absolute;
+      Content: "  ";
+      width: 165px;
+      height: .5px;
+      margin-top: -16px;
+      background: rgba(53, 83, 98, 0.60);
+    }
+  }
+
+  a {
+    color: rgba(53, 83, 98, 0.80);
+  }
+}

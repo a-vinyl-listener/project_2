@@ -1,0 +1,25 @@
+.see {
+   background: #001414;
+   &__body {
+      display: flex;
+      justify-content: space-between;
+   }
+   &__content {
+      display: flex;
+      flex-direction: column;
+      padding: 247px 83px 246px 81px;
+   }
+   &__title {
+      color: #FFF;
+      font-family: Public Sans;
+      font-size: 22px;
+      max-width: 290px;
+   }
+   &__subtitle {
+      color: #FFF;
+      font-family: Public Sans;
+      font-size: 15px;
+      max-width: 542px;
+      margin-top: 21px;
+   }
+}

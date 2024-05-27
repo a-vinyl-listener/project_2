@@ -1,0 +1,26 @@
+.box {
+  &__row {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  &__text {
+    color: rgba(53, 83, 98, 0.60);
+    font-family: Public Sans;
+    font-size: 11px;
+    letter-spacing: 0.5px;
+    text-transform: uppercase;
+    margin-bottom: 0px;
+  }
+
+  &__list {
+    display: flex;
+    gap: 13px;
+  }
+
+  &__icon {
+    margin: 16px 0 17px 0;
+  }
+}
+
